@@ -6,3 +6,10 @@ const randVar2 = Math.floor(randVar1 * myName.length);
 console.log(randVar2);
 
 console.log(myName[randVar2]);
+
+
+// Solution by the instructor
+
+const userName = "Ahamed"; 
+
+console.log(userName.charAt(Math.floor(Math.random() * userName.length)));

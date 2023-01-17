@@ -34,7 +34,7 @@ if (playGame) {
     }
 
   } else{
-    alert("Maybe next time");
+    alert("You have not entered anything");
   }
 
 } else {

@@ -24,6 +24,11 @@ if (playGame) {
       : `playerOne: ${playerOne}\nComputer: $(computer)\nplayerOne wins!`;
       alert(gameResult);
 
+      let playAgain = confirm("Would you like to play again?");
+
+      playAgain ? location.reload()
+      : alert("Thanks for playing!");
+
     
   
 

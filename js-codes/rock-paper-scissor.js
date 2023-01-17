@@ -10,6 +10,9 @@ if (playGame) {
 
     if (playerOne === "rock" || playerOne === "paper" || playerOne === "scissor") {
       let computerChoice = Math.floor(Math.random() * 3 + 1);
+      let computer = computerChoice === 1 ? "rock"
+      : computerChoice === 2? "paper"
+      : "scissor";
 
   } else {
     alert("Maybe next time let's play :)");

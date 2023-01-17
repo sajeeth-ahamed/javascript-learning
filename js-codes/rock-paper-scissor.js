@@ -21,7 +21,7 @@ if (playGame) {
 
       : playerOne === "scissor" && computer === "rock"? `playerOne: ${playerOne}\nComputer: ${computer}\nComputer wins!`
 
-      : `playerOne: ${playerOne}\nComputer: $(computer)\nplayerOne wins!`;
+      : `playerOne: ${playerOne}\nComputer: ${computer}\nplayerOne wins!`;
       alert(gameResult);
 
       let playAgain = confirm("Would you like to play again?");

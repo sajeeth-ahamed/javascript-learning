@@ -7,10 +7,15 @@ if (playGame) {
 
   if (playerChoice) {
     let playerOne = playerChoice.trim().toLowerCase();
+
+    if (playerOne === "rock" || playerOne === "paper" || playerOne === "scissor") {
+      let computerChoice = Math.floor(Math.random() * 3 + 1);
+
   } else {
     alert("Maybe next time let's play :)");
   }
 
 }else {
   alert("Alright, will see you next time!");
+}
 }

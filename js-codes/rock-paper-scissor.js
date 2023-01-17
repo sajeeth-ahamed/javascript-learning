@@ -29,16 +29,15 @@ if (playGame) {
       playAgain ? location.reload()
       : alert("Thanks for playing!");
 
-    
-  
+    } else {
+      alert("You haven't enter the correct values!!");
+    }
 
-
-  } else {
-    alert("Maybe next time let's play :)");
+  } else{
+    alert("Maybe next time");
   }
 
-}else {
-  alert("Alright, will see you next time!");
-}
-
-}
+} else {
+  alert("Alright, let's see next time!" );
+}   
+  
